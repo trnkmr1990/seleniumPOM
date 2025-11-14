@@ -1,0 +1,45 @@
+# Maven
+/target/
+
+# Eclipse
+.classpath
+.project
+.settings/
+
+# IntelliJ
+.idea/
+*.iml
+
+# VS Code
+.vscode/
+
+# Logs
+logs/
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Test output and reports
+test-output/
+
+# Build artifacts
+*.jar
+
+# Temporary files
+*.tmp
+
+# Node modules (if any)
+node_modules/
+
+# Credentials
+secrets.properties
+.env
+
+# bin directories
+bin/
+
+# Others
+*.class
+

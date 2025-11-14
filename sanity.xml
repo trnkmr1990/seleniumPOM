@@ -1,0 +1,31 @@
+<<<<<<< HEAD
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Sanity Suite" parallel="classes" thread-count="2">
+    <test name="Sanity Tests">
+        <groups>
+            <run>
+                <include name="sanity"></include>
+            </run>
+        </groups>
+        <classes>
+            <class name="tests.AddToCartFromHomeTest"/>
+            <class name="tests.AddToCartFromProductsTest"/>
+        </classes>
+    </test>
+</suite>
+=======
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Sanity Suite" parallel="classes" thread-count="2">
+    <test name="Sanity Tests">
+        <groups>
+            <run>
+                <include name="sanity"></include>
+            </run>
+        </groups>
+        <classes>
+            <class name="tests.AddToCartFromHomeTest"/>
+            <class name="tests.AddToCartFromProductsTest"/>
+        </classes>
+    </test>
+</suite>
+>>>>>>> f090f41 (Add project files)

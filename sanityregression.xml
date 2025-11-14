@@ -1,0 +1,29 @@
+<<<<<<< HEAD
+<suite name="Selective Run Suite">
+    <test name="Partial Run">
+        <groups>
+            <run>
+                <include name="smoke"/>
+                <exclude name="regression"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="tests.*"/>
+        </classes>
+    </test>
+</suite>
+=======
+<suite name="Selective Run Suite">
+    <test name="Partial Run">
+        <groups>
+            <run>
+                <include name="smoke"/>
+                <exclude name="regression"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="tests.*"/>
+        </classes>
+    </test>
+</suite>
+>>>>>>> f090f41 (Add project files)
